@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+    <name>Annual Report</name>
+    <year>2024</year>
+    <company>Example Corp</company>
+    <data>
+        <record>
+            <id>1</id>
+            <name>John Doe</name>
+            <amount>1000</amount>
+            <date>2024-01-01</date>
+            <account_id>123456</account_id>
+        </record>
+        <record>
+            <id>2</id>
+            <name>Jane Smith</name>
+            <amount>2000</amount>
+            <date>2024-02-01</date>
+            <account_id>654321</account_id>
+        </record>
+        <record>
+            <id>3</id>
+            <name>Manoop Gopa</name>
+            <amount>7366,37</amount>
+            <date>2024-02-01</date>
+            <account_id>873678383873</account_id>
+        </record>
+        <!-- Add more records as needed -->
+    </data>
+</report>
