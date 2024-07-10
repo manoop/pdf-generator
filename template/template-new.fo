@@ -58,7 +58,7 @@
                             <fo:table-column column-width="20%"/>
                             <fo:table-column column-width="25%"/>
                             <fo:table-column column-width="25%"/>
-                            <fo:table-header>
+                            <fo:table-header border-bottom="1pt solid black" space-after="0.5cm">
                                 <fo:table-row>
                                     <fo:table-cell width="10%">
                                         <fo:block font-weight="bold">Id</fo:block>
@@ -81,19 +81,19 @@
                                 <xsl:for-each select="/report/data/record">
                                     <fo:table-row>
                                         <fo:table-cell width="10%">
-                                            <fo:block><xsl:value-of select="id"/></fo:block>
+                                            <fo:block space-before="5px"><xsl:value-of select="id"/></fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="20%">
-                                            <fo:block><xsl:value-of select="name"/></fo:block>
+                                            <fo:block space-before="5px"><xsl:value-of select="name"/></fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="20%">
-                                            <fo:block><xsl:value-of select="amount"/></fo:block>
+                                            <fo:block space-before="5px"><xsl:value-of select="amount"/></fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="25%">
-                                            <fo:block><xsl:value-of select="date"/></fo:block>
+                                            <fo:block space-before="5px"><xsl:value-of select="date"/></fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="25%">
-                                            <fo:block><xsl:value-of select="account_id"/></fo:block>
+                                            <fo:block space-before="5px"><xsl:value-of select="account_id"/></fo:block>
                                         </fo:table-cell>
                                     </fo:table-row>
                                 </xsl:for-each>
