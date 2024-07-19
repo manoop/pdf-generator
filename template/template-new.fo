@@ -88,19 +88,29 @@
                                 <xsl:for-each select="/report/data/record">
                                     <fo:table-row>
                                         <fo:table-cell width="10%">
-                                            <fo:block margin-bottom="5px"><xsl:value-of select="id"/></fo:block>
+                                            <fo:block wrap-option="wrap" linefeed-treatment="preserve" white-space-collapse="false">
+                                                <xsl:value-of select="id"/>
+                                            </fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="20%">
-                                            <fo:block margin-bottom="5px"><xsl:value-of select="name"/></fo:block>
+                                            <fo:block wrap-option="wrap" linefeed-treatment="preserve" white-space-collapse="false">
+                                                <xsl:value-of select="name"/>
+                                            </fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="20%">
-                                            <fo:block margin-bottom="5px"><xsl:value-of select="amount"/></fo:block>
+                                            <fo:block wrap-option="wrap" linefeed-treatment="preserve" white-space-collapse="false">
+                                                <xsl:value-of select="amount"/>
+                                            </fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="25%">
-                                            <fo:block margin-bottom="5px"><xsl:value-of select="date"/></fo:block>
+                                            <fo:block wrap-option="wrap" linefeed-treatment="preserve" white-space-collapse="false">
+                                                <xsl:value-of select="date"/>
+                                            </fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell width="25%">
-                                            <fo:block margin-bottom="5px"><xsl:value-of select="account_id"/></fo:block>
+                                            <fo:block wrap-option="wrap" linefeed-treatment="preserve" white-space-collapse="false">
+                                                <xsl:value-of select="account_id"/>
+                                            </fo:block>
                                         </fo:table-cell>
                                     </fo:table-row>
                                 </xsl:for-each>
